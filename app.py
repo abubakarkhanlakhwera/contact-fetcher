@@ -9,7 +9,7 @@ st.title("PDF Data Extractor with Prefix Modifier")
 uploaded_file = st.file_uploader("Upload PDF", type="pdf")
 
 # User input for prefix
-prefix = st.text_input("Prefix to add (e.g., EX-)", value="EX-")
+prefix = st.text_input("Prefix to add (e.g., area_name )")
 
 # Column to exclude from prefix
 exclude_column = st.selectbox("Exclude column from prefix", options=["Mobile", "Name"])
